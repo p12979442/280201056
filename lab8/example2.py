@@ -19,8 +19,8 @@ def prime(x):
       prime_list.append(i)
 
   for i in prime_list:
-    if i==5:
+    if i==x:
       break
     print(i,"is prime")
     
-prime(5)
+prime(4)
